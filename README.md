@@ -1,10 +1,10 @@
-# Slint Rust Template
+# Slint Rust Memory Match Tile Game
 
-A template for a Rust application that's using [Slint](https://slint.rs) for the user interface.
+A game that's using [Slint](https://slint.rs) for the user interface.
 
 ## About
 
-This template helps you get started developing a Rust application with Slint as toolkit
+This is a simple Memory Match Tile Game used as an example of a Rust application with Slint as toolkit
 for the user interface. It demonstrates the integration between the `.slint` UI markup and
 Rust code, how to trigger react to callbacks, get and set properties and use basic widgets.
 
@@ -16,10 +16,10 @@ Rust code, how to trigger react to callbacks, get and set properties and use bas
     ```
     cargo install cargo-generate
     ```
-3. Set up a sample project with this template
+3. Set up this project
     ```
-    cargo generate --git https://github.com/slint-ui/slint-rust-template --name my-project
-    cd my-project
+    cargo generate --git https://github.com/krons711/memory-game --name memory-game
+    cd memory-game
     ```
 3. Build with cargo
     ```
@@ -36,5 +36,3 @@ We recommend using an IDE for development, along with our [LSP-based IDE integra
 
 We hope that this template helps you get started and you enjoy exploring making user interfaces with Slint. To learn more
 about the Slint APIs and the `.slint` markup language check out our [online documentation](https://slint.dev/docs).
-
-Don't forget to edit this README to replace it by yours
