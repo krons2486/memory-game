@@ -2358,8 +2358,8 @@ dependencies = [
 ]
 
 [[package]]
-name = "memory"
-version = "0.1.0"
+name = "memory-game"
+version = "0.2.0"
 dependencies = [
  "rand",
  "slint",
